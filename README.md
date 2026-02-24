@@ -1,8 +1,9 @@
 # 🏥 AI Healthcare Assistant
+# 🏥 General Health Assistance Chat Bot
 
 An AI-powered Healthcare Assistant built using **Google Gemini API** and **Streamlit**, designed to provide short, simple, and responsible medical guidance with built-in safety guardrails and emergency detection.
 
-> ⚠️ This application provides general medical information only. It is NOT a substitute for professional medical advice.
+> ⚠️ This AI provides general medical information only. It is NOT a substitute for professional medical advice.
 
 ---
 
@@ -14,7 +15,7 @@ An AI-powered Healthcare Assistant built using **Google Gemini API** and **Strea
 
 ## 📌 Project Overview
 
-The AI Healthcare Assistant is designed to:
+The **General Health Assistance Chat Bot** is designed to:
 
 - Provide short and clear responses (3–5 lines only)
 - Suggest 1–2 possible common causes of symptoms
@@ -23,7 +24,7 @@ The AI Healthcare Assistant is designed to:
 - Detect emergency symptoms and alert users immediately
 - Avoid diagnosis confirmation or prescription
 
-This project focuses on **Responsible AI Implementation** in sensitive domains like healthcare.
+This project focuses on implementing **Responsible AI in Healthcare**.
 
 ---
 
@@ -31,41 +32,44 @@ This project focuses on **Responsible AI Implementation** in sensitive domains l
 
 Online medical searches often:
 
-- Provide overwhelming or complex information
-- Cause unnecessary panic
+- Provide overwhelming and complex explanations
+- Cause unnecessary anxiety
 - Encourage unsafe self-diagnosis
-- Lack emergency detection mechanisms
+- Lack emergency awareness mechanisms
 
 ---
 
 ## 💡 Solution
 
-This application introduces:
+This AI system introduces:
 
 ✅ Controlled Prompt Engineering  
 ✅ Strict Medical Guardrails  
-✅ Emergency Keyword Detection System  
+✅ Emergency Keyword Detection (Regex-based)  
 ✅ Multi-turn Conversation Memory  
-✅ Clean & Interactive Chat UI  
-✅ Cloud Deployment on AWS EC2  
+✅ Clean Streamlit Chat Interface  
+✅ AWS EC2 Cloud Deployment  
 
 ---
 
 ## 🧠 Tech Stack
 
-- **Python**
-- **Streamlit**
-- **Google Gemini API (gemini-2.5-flash)**
-- **AWS EC2**
-- **dotenv (Environment Variable Management)**
-- **Regex (Emergency Detection)**
+- Python  
+- Streamlit  
+- Google Gemini API (gemini-2.5-flash)  
+- AWS EC2  
+- dotenv (Environment Variable Management)  
+- Regular Expressions (Emergency Detection)  
 
 ---
 
 ## 🏗️ System Architecture
 
-User → Streamlit UI → Gemini Model (with System Prompt) → Response  
-Emergency Detection Layer → Immediate Alert (if required)
+User → Streamlit UI → Gemini Model (System Prompt Controlled) → AI Response  
+                ↓  
+        Emergency Detection Layer  
+                ↓  
+      🚨 Emergency Alert (If Triggered)
 
 ---
 
@@ -74,5 +78,5 @@ Emergency Detection Layer → Immediate Alert (if required)
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-healthcare-assistant.git
-cd ai-healthcare-assistant
+git clone https://github.com/your-username/General-health-assistance-chat-bot.git
+cd General-health-assistance-chat-bot
